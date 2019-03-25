@@ -1,8 +1,4 @@
 <?php
-	$respostas = array(
-		array('Resposta' => array('nome' => 'Katia', 'idade' => '20')),
-		array('Resposta' => array('nome' => 'Claudio', 'idade' => '36')),
-	);
 	$detalhe = array();
 	foreach ($respostas as $resposta) {
 		$detalhe[] = array(
