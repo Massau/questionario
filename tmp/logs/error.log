@@ -56,3 +56,14 @@ Request URL: /questionario/test
 Stack Trace:
 #0 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2019-03-25 01:27:00 Error: [MissingActionException] Action RespostasController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'RespostasController',
+  'action' => 'index',
+)
+Request URL: /questionario/respostas
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
