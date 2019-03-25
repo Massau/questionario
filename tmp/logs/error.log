@@ -1,0 +1,58 @@
+2019-03-23 22:47:57 Error: [MissingControllerException] Controller class HelloWordsController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloWordsController',
+  'plugin' => NULL,
+)
+Request URL: /questionario/hello_words/imprimir
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-23 22:48:24 Error: [MissingControllerException] Controller class HelloWorl]dsController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloWorl]dsController',
+  'plugin' => NULL,
+)
+Request URL: /questionario/hello_worl]ds/imprimir
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-23 22:48:28 Error: [MissingViewException] View file "HelloWorlds\imprimir.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'HelloWorlds\\imprimir.ctp',
+)
+Request URL: /questionario/hello_worlds/imprimir
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\lib\Cake\View\View.php(470): View->_getViewFileName('HelloWorlds\\imp...')
+#1 C:\xampp\htdocs\questionario\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\questionario\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\questionario\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HelloWorldsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\questionario\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-03-23 23:05:38 Error: [ParseError] syntax error, unexpected '"', expecting ',' or ';'
+Request URL: /questionario/hello_worlds/imprimir
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\questionario\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\questionario\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\questionario\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\questionario\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HelloWorldsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\questionario\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-03-24 04:02:51 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /questionario/test
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-03-24 04:05:18 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /questionario/test
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
