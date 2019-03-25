@@ -1,3 +1,9 @@
+<?php
+	echo $this->Html->tag('h2', 'Respondido por:');
+
+?>
+
+<!--
 <h2>Repondido por:</h2>
 <table>
 	<thead>
@@ -7,3 +13,4 @@
 		<tr><td>Katia</td><td>20</td></tr>
 	</tbody>
 </table>
+-->
