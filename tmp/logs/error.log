@@ -79,3 +79,33 @@ Stack Trace:
 #3 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
 #4 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2019-03-25 02:11:12 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /questionario/respostas
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\apps\\q...', Array)
+#1 C:\xampp\cake\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\apps\\q...')
+#2 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#5 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-03-25 02:12:28 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /questionario/respostas
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\apps\\q...', Array)
+#1 C:\xampp\cake\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\apps\\q...')
+#2 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#5 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-03-25 02:12:31 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /questionario/respostas
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\apps\\q...', Array)
+#1 C:\xampp\cake\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\apps\\q...')
+#2 C:\xampp\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#5 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
