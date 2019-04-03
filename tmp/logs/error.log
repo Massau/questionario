@@ -322,3 +322,13 @@ Stack Trace:
 #1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
 #2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2019-04-03 14:52:13 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\apps\questionario\View\Respostas\view.ctp, line 9]
+2019-04-03 14:52:13 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /questionario/respostas/view/2
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 9, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 9, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
