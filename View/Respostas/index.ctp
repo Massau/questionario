@@ -2,11 +2,12 @@
 	$detalhe = array();
 	foreach ($respostas as $resposta) {
 		$editLink = $this->Html->Link('Alterar', '/respostas/edit/' . $resposta['Resposta']['id']);
+		$deleteLink = $this->Html->Link('Excluir', '/respostas/delete/' . $resposta['Resposta']['id']);
 		$viewLink = $this->Html->Link($resposta['Resposta']['nome'], '/respostas/view/' . $resposta['Resposta']['id']);
 		$detalhe[] = array(
 		$viewLink,
 		$resposta['Resposta']['idade'],
-		$editLink
+		$editLink . ' ' . $deleteLink
 		);
 	}
 
