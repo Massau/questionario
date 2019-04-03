@@ -66,6 +66,7 @@ class RespostasController extends AppController {
 
 	public function delete($id) {
 		$this->Resposta->delete($id);
+		$this->Flash->set('Resposta excluída com sucesso!');
 		$this->redirect('/respostas');
 		/*
 		Como não preciso de uma tela para deletar basta que ele clique e exclua
