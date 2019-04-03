@@ -36,6 +36,15 @@ class RespostasController extends AppController {
 	}
 
 	public function edit($id = null) {
-		
+		/*
+		Se tem informação (se o campo estiver setado)
+			Receber Informações
+			Gravar no Banco
+			Mostrar mensagem para usuário
+			Redireciomar para Respostas
+		Senao
+			Busca Informações do ID
+			Mostra formulário
+		*/
 	}
 }
