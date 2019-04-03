@@ -2,8 +2,8 @@
 $form = $this->form->create('resposta');
 $form .= $this->Form->input('Resposta.nome');
 $form .= $this->Form->input('Respostas.idade');
-$form .= $this->Form->submit('Gravar');
-$form .= $this->form->end();
+//
+$form .= $this->form->end('Gravar');
 
 echo $this->Html->Tag('h1', 'Nova Resposta');
 echo $form;
