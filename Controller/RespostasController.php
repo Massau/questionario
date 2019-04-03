@@ -57,4 +57,11 @@ class RespostasController extends AppController {
 			Mostra formulário
 		*/
 	}
+
+	public function view($id = null) {
+		$fields = array('Resposta.id','Resposta.nome', 'Resposta.idade');
+		$conditions = array('Resposta.id' => $id);
+		$this->request->data = $this->Resposta->find('first', compact('fields', 'conditions'));
+	}
+
 }

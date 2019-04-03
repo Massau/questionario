@@ -278,3 +278,47 @@ Stack Trace:
 #1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
 #2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2019-04-03 14:24:45 Error: [MissingActionException] Action RespostasController::respostas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RespostasController',
+  'action' => 'respostas',
+)
+Request URL: /questionario/respostas/respostas/view/1
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-03 14:26:04 Error: [MissingActionException] Action RespostasController::respostas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RespostasController',
+  'action' => 'respostas',
+)
+Request URL: /questionario/respostas/respostas/view/1
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-03 14:26:06 Error: [MissingActionException] Action RespostasController::respostas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RespostasController',
+  'action' => 'respostas',
+)
+Request URL: /questionario/respostas/respostas/view/1
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-04-03 14:26:15 Error: [MissingActionException] Action RespostasController::respostas() could not be found.
+Exception Attributes: array (
+  'controller' => 'RespostasController',
+  'action' => 'respostas',
+)
+Request URL: /questionario/respostas/respostas/view/1
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
