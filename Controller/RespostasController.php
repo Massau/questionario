@@ -8,6 +8,7 @@ class RespostasController extends AppController {
 			array('Resposta' => array('nome' => 'Claudio', 'idade' => '36')),
 		);
 */
+		$fields = array('Resposta.id', 'Resposta.nome', 'Resposta.ano');
 		$respostas = $this->Resposta->find('all');
 
 		$this->set('respostas', $respostas);
@@ -32,5 +33,9 @@ class RespostasController extends AppController {
 		Senao
 			Mostra formulário
 		*/
+	}
+
+	public function edit($id = null) {
+		
 	}
 }
