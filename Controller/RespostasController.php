@@ -64,4 +64,13 @@ class RespostasController extends AppController {
 		$this->request->data = $this->Resposta->find('first', compact('fields', 'conditions'));
 	}
 
+	public function delete($id) {
+		$this->Resposta->delete($id);
+		$this->redirect('/respostas');
+		/*
+		Como não preciso de uma tela para deletar basta que ele clique e exclua
+		Dessa forma, pegamos o Id e solicitamos que o modelo o apague
+		*/
+	}
+
 }
