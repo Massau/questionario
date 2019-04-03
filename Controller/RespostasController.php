@@ -14,6 +14,14 @@ class RespostasController extends AppController {
 	}
 
 	public function add() {
-		
+		/*
+		Se tem informação (se o campo estiver setado)
+			Receber Informações
+			Gravar no Banco
+			Mostrar mensagem para usuário
+			Redireciomar para Respostas
+		Senao
+			Mostra formulário
+		*/
 	}
 }
