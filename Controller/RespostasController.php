@@ -16,8 +16,8 @@ class RespostasController extends AppController {
 	public function add() {
 		pr($this->request->data);
 			if (!empty($this->request->data)) {
-				$this->resposta->create();
-				if ($this->resposta->save($this->request->data)) {
+				$this->Resposta->create();
+				if ($this->Resposta->save($this->request->data)) {
 					$this->Flash->set('Resposta gravada com sucesso!');
 					$this->redirect('/respostas');
 				}
