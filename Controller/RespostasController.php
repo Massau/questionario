@@ -17,7 +17,9 @@ class RespostasController extends AppController {
 		pr($this->request->data);
 			if (!empty($this->request->data)) {
 				$this->resposta->create();
-				$this->resposta->save);
+				if ($this->resposta->save($this->request->data)) {
+					
+				}
 
 			}
 		/*

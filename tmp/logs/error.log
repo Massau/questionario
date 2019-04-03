@@ -119,3 +119,22 @@ Stack Trace:
 #4 C:\xampp\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RespostasController), Object(CakeRequest))
 #5 C:\xampp\htdocs\questionario\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2019-04-03 13:24:17 Error: [MissingControllerException] Controller class RespostaController could not be found.
+Exception Attributes: array (
+  'class' => 'RespostaController',
+  'plugin' => NULL,
+)
+Request URL: /questionario/resposta
+Stack Trace:
+#0 C:\xampp\htdocs\questionario\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-04-03 13:24:22 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\apps\questionario\Controller\RespostasController.php, line 20]
+2019-04-03 13:24:22 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /questionario/respostas
+Stack Trace:
+#0 C:\xampp\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 20, Array)
+#2 C:\xampp\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\apps\\q...', 20, Array)
+#3 C:\xampp\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
