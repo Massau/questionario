@@ -14,6 +14,12 @@ class RespostasController extends AppController {
 	}
 
 	public function add() {
+		pr($this->request->data);
+			if (!empty($this->request->data)) {
+				$this->resposta->create();
+				$this->resposta->save);
+
+			}
 		/*
 		Se tem informação (se o campo estiver setado)
 			Receber Informações
