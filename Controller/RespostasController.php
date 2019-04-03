@@ -36,14 +36,13 @@ class RespostasController extends AppController {
 
 	public function edit($id = null) {
 		if (!empty($this->request->data)) {
-			$this->Resposta->create();
 			if ($this->Resposta->save($this->request->data)) {
-				$this->Flash->set('Resposta gravada com sucesso!');
+				$this->Flash->set('Resposta alterada com sucesso!');
 				$this->redirect('/respostas');
 			}
 
 		} else {
-			$fields = array('Resposta.nome', 'Resposta.idade');
+			$fields = array('Resposta.id','Resposta.nome', 'Resposta.idade');
 			$conditions = array('Resposta.id' => $id);
 			$this->request->data = $this->Resposta->find('first', compact('fields', 'conditions'));
 		}
