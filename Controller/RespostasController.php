@@ -12,4 +12,8 @@ class RespostasController extends AppController {
 
 		$this->set('respostas', $respostas);
 	}
+
+	public function add() {
+		
+	}
 }

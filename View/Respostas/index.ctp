@@ -7,7 +7,7 @@
 		);
 	}
 
-	$titulos = array('Nome', 'Ano');
+	$titulos = array('Nome', 'Idade');
 	$header = $this->Html->tableHeaders($titulos);
 	$body = $this->Html->tableCells($detalhe);
 
