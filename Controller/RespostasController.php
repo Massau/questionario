@@ -15,15 +15,14 @@ class RespostasController extends AppController {
 	}
 
 	public function add() {
-		pr($this->request->data);
-			if (!empty($this->request->data)) {
-				$this->Resposta->create();
-				if ($this->Resposta->save($this->request->data)) {
-					$this->Flash->set('Resposta gravada com sucesso!');
-					$this->redirect('/respostas');
-				}
-
+		if (!empty($this->request->data)) {
+			$this->Resposta->create();
+			if ($this->Resposta->save($this->request->data)) {
+				$this->Flash->set('Resposta gravada com sucesso!');
+				$this->redirect('/respostas');
 			}
+
+		}
 		/*
 		Se tem informação (se o campo estiver setado)
 			Receber Informações
@@ -36,6 +35,18 @@ class RespostasController extends AppController {
 	}
 
 	public function edit($id = null) {
+		if (!empty($this->request->data)) {
+			$this->Resposta->create();
+			if ($this->Resposta->save($this->request->data)) {
+				$this->Flash->set('Resposta gravada com sucesso!');
+				$this->redirect('/respostas');
+			}
+
+		} else {
+			$fields = array('Resposta.nome', 'Resposta.idade');
+			$conditions = array('Resposta.id' => $id);
+			$this->request->data = $this->Resposta->find('first', compact('fields', 'conditions'));
+		}
 		/*
 		Se tem informação (se o campo estiver setado)
 			Receber Informações
